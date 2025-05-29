@@ -1,6 +1,6 @@
 # 📝 Todo List App
 
-Todo List App ที่สร้างขึ้นด้วย **React + TypeScript + Vite + Tailwind CSS** พร้อมจัดการ state ด้วย **Context API** และเชื่อมต่อกับ **Axios + json-server** เป็น dummy backend
+Todo List App สร้างขึ้นด้วย **React + TypeScript + Vite + Tailwind CSS** จัดการ state ด้วย **Context API** และเชื่อมต่อกับ **Axios + json-server** เป็น dummy backend
 
 
 ## 🚀 Features
