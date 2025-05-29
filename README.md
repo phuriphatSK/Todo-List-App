@@ -1,22 +1,21 @@
 # 📝 Todo List App
 
-Todo List App สร้างขึ้นด้วย **React + TypeScript + Vite + Tailwind CSS** จัดการ state ด้วย **Context API** และเชื่อมต่อกับ **Axios + json-server** เป็น dummy backend
-
+Todo List App built with **React + TypeScript + Vite + Tailwind CSS** managing state with **Context API** and connected to **Axios + json-server** as a dummy backend
 
 ## 🚀 Features
 
-- ✅ เพิ่ม / แก้ไข / ลบ รายการ Todo
-- 🔁 Toggle สถานะ "ทำแล้ว / ยังไม่ทำ"
-- 💾 บันทึกข้อมูลไปยัง dummy backend (json-server)
-- ⏳ Loader แสดงระหว่างการโหลดข้อมูลหรือทำงาน
+- ✅ Add / Edit / Delete Todo items
+- 🔁 Toggle status "Complete / Incomplete"
+- 💾 Save data to dummy backend (json-server)
+- ⏳ Loader display during data loading or processing
 
 ## 🧠 Implementation Choices & Reasoning
 
-- 🔷 **React + TypeScript**: ใช้ React เพื่อความง่ายในการจัดการ UI และใช้ TypeScript เพื่อเพิ่มความปลอดภัยและช่วยให้พัฒนาได้แม่นยำขึ้น
-- 🌀 **Context API**: สำหรับแอปขนาดเล็ก การใช้ Context API เพียงพอและไม่ต้องติดตั้ง state manager เพิ่มอย่าง Redux
-- 🌐 **Axios**: มี API ที่ใช้งานง่าย รองรับ interceptors และเหมาะกับการจัดการ request/response
-- 📦 **json-server**: เป็นทางเลือกง่าย ๆ สำหรับ mock backend โดยไม่ต้องตั้งค่า backend จริง
-- 🎨 **Tailwind CSS**: ช่วยให้พัฒนา UI ได้เร็วขึ้น มี utility classes ที่สะดวก และ responsive โดยไม่ต้องเขียน CSS เยอะ
+- 🔷 React + TypeScript: Using React for easy UI management and TypeScript to enhance safety and development accuracy
+- 🌀 Context API: For small applications, Context API is sufficient without needing additional state managers like Redux
+- 🌐 Axios: Features an easy-to-use API, supports interceptors, and is suitable for request/response handling
+- 📦 json-server: A simple solution for mock backend without setting up a real backend
+- 🎨 Tailwind CSS: Accelerates UI development with convenient utility classes and responsive design without writing extensive CSS
 
 
 ## 🧑‍💻 Tech Stack
@@ -27,7 +26,7 @@ Todo List App สร้างขึ้นด้วย **React + TypeScript + Vit
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Context API](https://reactjs.org/docs/context.html)
 - [Axios](https://axios-http.com/)
-- [json-server](https://github.com/typicode/json-server)
+- [json-server](https://www.npmjs.com/package/json-server)
 
 ## 🛠️ Installation
 
