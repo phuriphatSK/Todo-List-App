@@ -24,7 +24,7 @@ const TodoList: React.FC = () => {
   if (error) return <p className="text-red-500">{error}</p>;
 
   return (
-    <ul>
+    <ul className="max-h-96 overflow-y-auto ">
       {todos.map((todo) => (
         <TodoItem key={todo.id} todo={todo} />
       ))}
