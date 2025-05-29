@@ -19,7 +19,7 @@ const TodoForm: React.FC = () => {
         type="text"
         value={text}
         onChange={(e) => setText(e.target.value)}
-        className="border rounded px-2 py-1 w-full border-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-300"
+        className="border rounded px-2 py-1 w-full border-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-300 text-black"
         placeholder="Add new todo"
       />
       <button className="bg-blue-500 text-white px-4 py-1 rounded">Add</button>

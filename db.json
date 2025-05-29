@@ -1,11 +1,6 @@
 {
   "todos": [
     {
-      "id": "1",
-      "text": "Learn React1234",
-      "completed": false
-    },
-    {
       "id": "86dd",
       "text": "todolist",
       "completed": false
