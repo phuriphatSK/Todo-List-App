@@ -41,7 +41,7 @@ Todo List App สร้างขึ้นด้วย **React + TypeScript + Vit
 3. **Start json-server**
    ```bash
    npm run server
-4. **Start development server
+4. **Start development server**
    ```bash
    npm run dev
 5. **Project Structure
