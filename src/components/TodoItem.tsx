@@ -24,7 +24,7 @@ const TodoItem: React.FC<Props> = ({ todo }) => {
     <li className="flex justify-between items-center border-b py-2">
       <button
         onClick={() => toggle(todo.id)}
-        className="mr-3 text-xl text-green-500 hover:scale-110 transition-transform"
+        className="mr-3 text-xl text-green-500 transition-transform hover:scale-105"
         title={todo.completed ? "Mark as Not Done" : "Mark as Done"}
       >
         {todo.completed ? <BsCircle /> : <BsCheckCircleFill />}
