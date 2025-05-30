@@ -37,6 +37,7 @@ export const TodoProvider: React.FC<{ children: React.ReactNode }> = ({
       .finally(() => setLoading(false));
   }, []);
 
+  //add function to create a new todo item
   const add = async (text: string) => {
     setLoading(true);
     try {
@@ -50,6 +51,7 @@ export const TodoProvider: React.FC<{ children: React.ReactNode }> = ({
     }
   };
 
+  //remove function to delete a todo item by its id
   const remove = async (id: number) => {
     setLoading(true);
     try {
@@ -63,6 +65,7 @@ export const TodoProvider: React.FC<{ children: React.ReactNode }> = ({
     }
   };
 
+  //toggle function to mark a todo item as completed or not
   const toggle = async (id: number) => {
     setLoading(true);
     try {
@@ -80,6 +83,7 @@ export const TodoProvider: React.FC<{ children: React.ReactNode }> = ({
     }
   };
 
+  //edit function to update the text of a todo item
   const edit = async (id: number, text: string) => {
     setLoading(true);
     try {
